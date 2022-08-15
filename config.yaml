@@ -1,0 +1,3 @@
+tg_bot_token: 5616649933:bot_token  # Replace with your token bot
+stripe_token: 'put-your-stripe-token-if-necessary'  # Replace with your Stripe token (if you are going to use payments with Stripe)
+logging_level: "info" # Logging level info or debug 
