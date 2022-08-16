@@ -1,5 +1,7 @@
 # Telegram Bot Bootstrap
 
+![Telegram Bot Bootstrap logo](doc/telegram-bot-bootstrap.jpg?raw=true)
+
 ## Introduction
 
 Telegram bots are everywhere. Telegram Bot APIs let you create bots with a lot of features.
