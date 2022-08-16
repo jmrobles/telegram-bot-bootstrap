@@ -5,7 +5,7 @@ from telegram import KeyboardButton, LabeledPrice, ReplyKeyboardMarkup, ReplyKey
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, PreCheckoutQueryHandler
 
 
-from utils import get_trans
+from utils import get_trans, get_random_quote
 
 # i18n decorator
 def i18n(fn):
@@ -73,7 +73,7 @@ class TGBot():
     # /quote command
     @i18n
     def tg_quote(self, update, context, _):
-        context.bot.send_message(chat_id=update.effective_chat.id, text=_("help_cmd_answer"))
+        context.bot.send_message(chat_id=update.effective_chat.id, text=get_random_quote())
 
     # Message handler
     @i18n
